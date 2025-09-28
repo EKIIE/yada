@@ -46,7 +46,7 @@ function App() {
 
       {/* Hero Section */}
       <header className="hero">
-        <img src="../public/profile.png" alt="yada" />
+        <img src="/profile.png" alt="yada" />
         <h1>Hi, I’m Yada Boonying</h1>
         <p>4th-year BIS Student | Software Development</p>
         <a href="#projects" className="btn">
@@ -137,7 +137,7 @@ function App() {
         <div className="projects">
           <div className="card">
             <img
-              src="../public/jrcar.png"
+              src="/jrcar.png"
               alt="JR Car Rental"
               className="card-img"
             />
@@ -157,7 +157,7 @@ function App() {
           </div>
           <div className="card">
             <img
-              src="../public/bis.png"
+              src="/bis.png"
               alt="Bis Online Store"
               className="card-img"
             />
@@ -177,7 +177,7 @@ function App() {
           </div>
           <div className="card">
             <img
-              src="../public/lstN4nd.png"
+              src="/lstN4nd.png"
               alt="Lost and Found"
               className="card-img"
             />
