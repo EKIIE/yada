@@ -207,6 +207,7 @@ function App() {
             className="certificate-card"
             onClick={() =>
               openModal([
+                "/images/cert-yolo-thumb.jpg",
                 "/images/cert-yolo-1.jpg",
                 "/images/cert-yolo-2.jpg",
                 "/images/cert-yolo-3.jpg",
