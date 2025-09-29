@@ -246,8 +246,8 @@ function App() {
             </button>
             <img src={activeImages[currentIndex]} alt="Certificate" />
             <div className="modal-controls">
-              <button onClick={prevImage}>◀</button>
-              <button onClick={nextImage}>▶</button>
+              <button onClick={prevImage}>⬅️</button>
+              <button onClick={nextImage}>➡️</button>
             </div>
           </div>
         </div>
