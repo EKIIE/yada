@@ -147,7 +147,7 @@ function App() {
               and staff dashboard.
             </p>
             <a
-              href="#"
+              href="http://3.106.232.160/Project-JRcarrental/"
               target="_blank"
               rel="noopener noreferrer"
               className="btn"
