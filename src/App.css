@@ -97,9 +97,9 @@ body, .app {
 
 /* Sections */
 .section {
-  padding: 4rem 1.5rem;
-  max-width: 1440px;
-  margin: auto;
+  padding: 4rem 5vw;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .section h2 {
