@@ -195,14 +195,52 @@ function App() {
               View Project
             </a>
           </div>
+          <div className="card">
+            <img
+              src="/chxrpxn.png"
+              alt="chxrpxn store"
+              className="card-img"
+            />
+            <h3>CHXRPXN Store</h3>
+            <p>
+              User Experience And User Interface Prototype Design.
+            </p>
+            <a
+              href="https://www.figma.com/proto/q10KyGZ5AF9ppKeEawHu3h/CHXXXRPXN?node-id=21-2&starting-point-node-id=111%3A446&scaling=scale-down-width&content-scaling=fixed&t=k7nqusw7EK5URCZu-1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn"
+            >
+              View Project
+            </a>
+          </div>
         </div>
       </section>
 
       {/* Certificates Section */}
       <section id="certificates" className="section">
-        <h2>Certificates</h2>
+        <h2>Activities</h2>
         <div className="certificates">
           {/* Card 1 */}
+          <div
+            className="certificate-card"
+            onClick={() =>
+              openModal([
+                "/images/cert-gamedev-thumb.png",
+                "/images/cert-gamedev-1.png",
+                "/images/cert-gamedev-2.png",
+                "/images/cert-gamedev-3.png",
+                "/images/cert-gamedev-4.png",
+                "/images/cert-gamedev-5.png",
+              ])
+            }
+          >
+            <img src="/images/cert-gamedev-2.png" alt="GameDev Certificate" />
+            <h3>FiveM GTA Server Development</h3>
+            <p>Full-stack Developer, 2021</p>
+          </div>
+
+          {/* Card 2 */}
           <div
             className="certificate-card"
             onClick={() =>
@@ -212,6 +250,8 @@ function App() {
                 "/images/cert-yolo-2.jpg",
                 "/images/cert-yolo-3.jpg",
                 "/images/cert-yolo-4.jpg",
+                "/images/cert-yolo-5.jpg",
+                "/images/cert-yolo-6.jpg",
               ])
             }
           >
@@ -220,19 +260,18 @@ function App() {
             <p>AI BigData and Chinese Workshop, 2023</p>
           </div>
 
-          {/* Card 2 */}
+          {/* Card 3 */}
           <div
             className="certificate-card"
             onClick={() =>
               openModal([
-                "/images/cert-webdev-1.jpg",
-                "/images/cert-webdev-2.jpg",
+                "/images/cert-engsh-thumb.jpg",
               ])
             }
           >
-            <img src="/images/cert-webdev-thumb.jpg" alt="WebDev Certificate" />
-            <h3>Web Development Bootcamp</h3>
-            <p>Full-stack Training, 2022</p>
+            <img src="/images/cert-engsh-thumb.jpg" alt="English Certificate" />
+            <h3>English for Workplace Bootcamp</h3>
+            <p>English Training, 2025</p>
           </div>
         </div>
       </section>
