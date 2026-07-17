@@ -273,6 +273,20 @@ function App() {
             <h3>English for Workplace Bootcamp</h3>
             <p>English Training, 2025</p>
           </div>
+
+          {/* Card 4 */}
+          <div
+            className="certificate-card"
+            onClick={() =>
+              openModal([
+                "/images/cert-fds-thumb.png",
+              ])
+            }
+          >
+            <img src="/images/cert-fds-thumb.png" alt="FDS Certificate" />
+            <h3>Certified in Cybersecurity</h3>
+            <p>3 days Cloud Security Workshop by NCSA Thailand, 2026</p>
+          </div>
         </div>
       </section>
 
