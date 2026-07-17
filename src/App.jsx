@@ -221,23 +221,52 @@ function App() {
       <section id="certificates" className="section">
         <h2>Activities</h2>
         <div className="certificates">
-          {/* Card 1 */}
+
+          {/* Card 5 */}
           <div
             className="certificate-card"
             onClick={() =>
               openModal([
-                "/images/cert-gamedev-thumb.png",
-                "/images/cert-gamedev-1.png",
-                "/images/cert-gamedev-2.png",
-                "/images/cert-gamedev-3.png",
-                "/images/cert-gamedev-4.png",
-                "/images/cert-gamedev-5.png",
+                "/images/cert-ncsa-thumb.png",
               ])
             }
           >
-            <img src="/images/cert-gamedev-2.png" alt="GameDev Certificate" />
-            <h3>FiveM GTA Server Development</h3>
-            <p>Full-stack Developer, 2021</p>
+            <img src="/images/cert-ncsa-thumb.png" alt="NCSA Certificate" />
+            <h3>Certified in Cybersecurity</h3>
+            <p>3 days Cloud Security Workshop by NCSA Thailand, 2026</p>
+          </div>
+
+          {/* Card 4 */}
+          <div
+            className="certificate-card"
+            onClick={() =>
+              openModal([
+                "/images/cert-intern-thumb.png",
+                "/images/cert-intern-1.png",
+                "/images/cert-intern-2.png",
+                "/images/cert-intern-3.png",
+                "/images/cert-intern-4.png",
+                "/images/cert-intern-5.png",
+                "/images/cert-intern-6.png",
+              ])
+            }
+          >
+            <img src="/images/cert-intern-thumb.png" alt="Intern Certificate" />
+            <h3>Internship Certificate</h3>
+            <p>Software Developer Trainee, 2026</p>
+          </div>
+          {/* Card 3 */}
+          <div
+            className="certificate-card"
+            onClick={() =>
+              openModal([
+                "/images/cert-engsh-thumb.jpg",
+              ])
+            }
+          >
+            <img src="/images/cert-engsh-thumb.jpg" alt="English Certificate" />
+            <h3>English for Workplace Bootcamp</h3>
+            <p>English Training, 2025</p>
           </div>
 
           {/* Card 2 */}
@@ -260,33 +289,25 @@ function App() {
             <p>AI BigData and Chinese Workshop, 2023</p>
           </div>
 
-          {/* Card 3 */}
+          {/* Card 1 */}
           <div
             className="certificate-card"
             onClick={() =>
               openModal([
-                "/images/cert-engsh-thumb.jpg",
+                "/images/cert-gamedev-thumb.png",
+                "/images/cert-gamedev-1.png",
+                "/images/cert-gamedev-2.png",
+                "/images/cert-gamedev-3.png",
+                "/images/cert-gamedev-4.png",
+                "/images/cert-gamedev-5.png",
               ])
             }
           >
-            <img src="/images/cert-engsh-thumb.jpg" alt="English Certificate" />
-            <h3>English for Workplace Bootcamp</h3>
-            <p>English Training, 2025</p>
+            <img src="/images/cert-gamedev-2.png" alt="GameDev Certificate" />
+            <h3>FiveM GTA Server Development</h3>
+            <p>Full-stack Developer, 2021</p>
           </div>
 
-          {/* Card 4 */}
-          <div
-            className="certificate-card"
-            onClick={() =>
-              openModal([
-                "/images/cert-fds-thumb.png",
-              ])
-            }
-          >
-            <img src="/images/cert-fds-thumb.png" alt="FDS Certificate" />
-            <h3>Certified in Cybersecurity</h3>
-            <p>3 days Cloud Security Workshop by NCSA Thailand, 2026</p>
-          </div>
         </div>
       </section>
 
