@@ -222,6 +222,23 @@ function App() {
         <h2>Activities</h2>
         <div className="certificates">
 
+          {/* Card 6 */}
+          <div
+            className="certificate-card"
+            onClick={() =>
+              openModal([
+                "/images/cert-ruijie-thumb.png",
+                "/images/cert-ruijie-1.png",
+                "/images/cert-ruijie-2.png",
+                "/images/cert-ruijie-3.png",
+              ])
+            }
+          >
+            <img src="/images/cert-ruijie-thumb.png" alt="Ruijie Certificate" />
+            <h3>Ruijie Certificate</h3>
+            <p>Firewall Security and Network Configuration Workshop by Ruijie, 2026</p>
+          </div>
+
           {/* Card 5 */}
           <div
             className="certificate-card"
@@ -232,7 +249,7 @@ function App() {
             }
           >
             <img src="/images/cert-ncsa-thumb.png" alt="NCSA Certificate" />
-            <h3>Certified in Cybersecurity</h3>
+            <h3>Certificate in Cybersecurity</h3>
             <p>3 days Cloud Security Workshop by NCSA Thailand, 2026</p>
           </div>
 
