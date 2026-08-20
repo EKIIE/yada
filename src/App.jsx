@@ -28,7 +28,7 @@ function App() {
 
     }
 
-  }, [])
+  }, []);
   const [isOpen, setIsOpen] = useState(false);
   const [activeImages, setActiveImages] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
