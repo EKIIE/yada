@@ -1,7 +1,34 @@
 import { useState } from "react";
+import { useEffect } from "react";
 import "./App.css";
 
 function App() {
+
+  useEffect(() => {
+
+    if (window.location.hash) {
+
+      setTimeout(() => {
+
+        const element = document.querySelector(window.location.hash);
+
+        if (element) {
+
+          element.scrollIntoView({
+
+            behavior: "smooth",
+
+            block: "start",
+
+          });
+
+        }
+
+      }, 300);
+
+    }
+
+  }, [])
   const [isOpen, setIsOpen] = useState(false);
   const [activeImages, setActiveImages] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
