@@ -249,7 +249,7 @@ function App() {
         <h2>Activities</h2>
         <div className="certificates">
 
-          {/* Card 6 */}
+          {/* Card 7 */}
           <div
             className="certificate-card"
             onClick={() =>
@@ -266,7 +266,7 @@ function App() {
             <p>Firewall Security and Network Configuration Workshop by Ruijie, 2026</p>
           </div>
 
-          {/* Card 5 */}
+          {/* Card 6 */}
           <div
             className="certificate-card"
             onClick={() =>
@@ -280,7 +280,7 @@ function App() {
             <p>3 days Cloud Security Workshop by NCSA Thailand, 2026</p>
           </div>
 
-          {/* Card 4 */}
+          {/* Card 5 */}
           <div
             className="certificate-card"
             onClick={() =>
@@ -298,6 +298,19 @@ function App() {
             <img src="/images/cert-intern-thumb.png" alt="Intern Certificate" />
             <h3>Internship Certificate</h3>
             <p>Software Developer Trainee, 2026</p>
+          </div>
+          {/* Card 4 */}
+          <div
+            className="certificate-card"
+            onClick={() =>
+              openModal([
+                "/images/cert-iso29110-thumb.png",
+              ])
+            }
+          >
+            <img src="/images/cert-iso29110-thumb.png" alt="ISO 29110 Certificate" />
+            <h3>ISO 29110 Certificate</h3>
+            <p>ISO/IEC29110-4-1:2018 Requirements Training course, 2026</p>
           </div>
           {/* Card 3 */}
           <div
