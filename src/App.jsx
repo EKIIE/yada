@@ -249,6 +249,23 @@ function App() {
         <h2>Activities</h2>
         <div className="certificates">
 
+          {/* Card 8 */}
+          <div
+            className="certificate-card"
+            onClick={() =>
+              openModal([
+                "/images/cert-mikrotik-thumb.png",
+                "/images/cert-mikrotik-1.png",
+                "/images/cert-mikrotik-2.png",
+                "/images/cert-mikrotik-3.png",
+              ])
+            }
+          >
+            <img src="/images/cert-mikrotik-thumb.png" alt="Mikrotik Certificate" />
+            <h3>Mikrotik Certificate</h3>
+            <p>Firewall Security and Network Configuration Workshop by Mikrotik, 2026</p>
+          </div>
+
           {/* Card 7 */}
           <div
             className="certificate-card"
