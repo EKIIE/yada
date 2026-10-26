@@ -68,6 +68,11 @@ function App() {
           <li>
             <a href="#contact">Contact</a>
           </li>
+          <li>
+            <a href="/resumeIT.pdf" target="_blank" rel="noopener noreferrer">
+              Resume
+            </a>
+          </li>
         </ul>
       </nav>
 
